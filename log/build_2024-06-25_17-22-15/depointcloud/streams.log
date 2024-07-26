@@ -1,0 +1,4 @@
+[0.048s] Invoking command in '/home/nvidia/nav2_ws/build/depointcloud': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /home/nvidia/cmake-3.29.5/bin/cmake --build /home/nvidia/nav2_ws/build/depointcloud -- -j8 -l8
+[0.073s] make: execvp: /usr/bin/cmake: Permission denied
+[0.073s] make: *** [Makefile:222: cmake_check_build_system] Error 127
+[0.077s] Invoked command in '/home/nvidia/nav2_ws/build/depointcloud' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /home/nvidia/cmake-3.29.5/bin/cmake --build /home/nvidia/nav2_ws/build/depointcloud -- -j8 -l8

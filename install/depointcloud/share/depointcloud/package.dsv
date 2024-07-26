@@ -1,0 +1,8 @@
+source;share/depointcloud/hook/cmake_prefix_path.ps1
+source;share/depointcloud/hook/cmake_prefix_path.dsv
+source;share/depointcloud/hook/cmake_prefix_path.sh
+source;share/depointcloud/local_setup.bash
+source;share/depointcloud/local_setup.dsv
+source;share/depointcloud/local_setup.ps1
+source;share/depointcloud/local_setup.sh
+source;share/depointcloud/local_setup.zsh

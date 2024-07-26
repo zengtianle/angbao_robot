@@ -1,0 +1,23 @@
+[0.310s] Invoking command in '/home/nvidia/nav2_ws/build/angbao_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(python3810) /usr/bin/cmake --build /home/nvidia/nav2_ws/build/angbao_navigation2 -- -j8 -l8
+[0.386s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.431s] -- Using PYTHON_EXECUTABLE: /home/nvidia/miniconda3/bin/python3
+[0.804s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.866s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.871s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.082s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.162s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.164s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.372s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.531s] CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[1.531s]   rosidl_generate_interfaces() the passed file 'msg/CustomDetection.msg'
+[1.531s]   doesn't exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[1.532s]   '/home/nvidia/nav2_ws/src/angbao_navigation2'
+[1.532s] Call Stack (most recent call first):
+[1.532s]   CMakeLists.txt:50 (rosidl_generate_interfaces)
+[1.532s] 
+[1.532s] 
+[1.534s] -- Configuring incomplete, errors occurred!
+[1.534s] See also "/home/nvidia/nav2_ws/build/angbao_navigation2/CMakeFiles/CMakeOutput.log".
+[1.534s] See also "/home/nvidia/nav2_ws/build/angbao_navigation2/CMakeFiles/CMakeError.log".
+[1.551s] make: *** [Makefile:222: cmake_check_build_system] Error 1
+[1.557s] Invoked command in '/home/nvidia/nav2_ws/build/angbao_navigation2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(python3810) /usr/bin/cmake --build /home/nvidia/nav2_ws/build/angbao_navigation2 -- -j8 -l8

@@ -1,0 +1,2 @@
+Invoking command in '/home/nvidia/nav2_ws/build/angbao_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(python3810) /usr/bin/cmake --build /home/nvidia/nav2_ws/build/angbao_navigation2 -- -j8 -l8
+Invoked command in '/home/nvidia/nav2_ws/build/angbao_navigation2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(python3810) /usr/bin/cmake --build /home/nvidia/nav2_ws/build/angbao_navigation2 -- -j8 -l8

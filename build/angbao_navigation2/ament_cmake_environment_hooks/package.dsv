@@ -1,0 +1,4 @@
+source;share/angbao_navigation2/local_setup.bash
+source;share/angbao_navigation2/local_setup.dsv
+source;share/angbao_navigation2/local_setup.sh
+source;share/angbao_navigation2/local_setup.zsh

@@ -1,0 +1,217 @@
+[0.310s] Invoking command in '/home/nvidia/nav2_ws/build/angbao_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(python3810) /usr/bin/cmake --build /home/nvidia/nav2_ws/build/angbao_navigation2 -- -j8 -l8
+[0.429s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.503s] -- Found PythonInterp: /home/nvidia/miniconda3/bin/python3 (found suitable version "3.8.18", minimum required is "3") 
+[0.504s] -- Using PYTHON_EXECUTABLE: /home/nvidia/miniconda3/bin/python3
+[0.933s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.995s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.001s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.210s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.289s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.291s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.498s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.657s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.711s] -- Found PythonInterp: /home/nvidia/miniconda3/bin/python3 (found version "3.8.18") 
+[1.988s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[2.162s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.173s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.214s] -- Found PythonInterp: /home/nvidia/miniconda3/bin/python3 (found suitable version "3.8.18", minimum required is "3.5") 
+[2.215s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[2.259s] -- Using PYTHON_EXECUTABLE: /home/nvidia/miniconda3/bin/python3
+[2.259s] -- Using PYTHON_INCLUDE_DIRS: /home/nvidia/miniconda3/include/python3.8
+[2.259s] -- Using PYTHON_LIBRARIES: /home/nvidia/miniconda3/lib/libpython3.8.so
+[2.282s] -- Found nav2_bringup: 0.4.7 (/opt/ros/foxy/share/nav2_bringup/cmake)
+[2.282s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.306s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.315s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.316s] -- Configured cppcheck include dirs: 
+[2.316s] -- Configured cppcheck exclude dirs and/or files: 
+[2.319s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.319s] -- Configured cpplint exclude dirs and/or files: 
+[2.320s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.321s] -- Added test 'lint_cmake' to check CMake code style
+[2.322s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[2.326s] -- Added test 'uncrustify' to check C / C++ code style
+[2.326s] -- Configured uncrustify additional arguments: 
+[2.327s] -- Added test 'xmllint' to check XML markup files
+[2.336s] -- Configuring done
+[2.402s] -- Generating done
+[2.408s] -- Build files have been written to: /home/nvidia/nav2_ws/build/angbao_navigation2
+[2.466s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.487s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.036s] [  6%] Built target angbao_navigation2__cpp
+[3.054s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.054s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.054s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.057s] [35m[1mScanning dependencies of target angbao_navigation2__rosidl_generator_c[0m
+[3.081s] [ 19%] [32mBuilding C object CMakeFiles/angbao_navigation2__rosidl_generator_c.dir/rosidl_generator_c/angbao_navigation2/msg/detail/custom_detection__functions.c.o[0m
+[3.239s] [ 22%] [32m[1mLinking C shared library libangbao_navigation2__rosidl_generator_c.so[0m
+[3.303s] [ 22%] Built target angbao_navigation2__rosidl_generator_c
+[3.323s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.323s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.565s] [35m[1mScanning dependencies of target angbao_navigation2__rosidl_typesupport_cpp[0m
+[3.587s] [ 32%] [32mBuilding CXX object CMakeFiles/angbao_navigation2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/angbao_navigation2/msg/custom_detection__type_support.cpp.o[0m
+[3.606s] [35m[1mScanning dependencies of target angbao_navigation2__rosidl_typesupport_introspection_cpp[0m
+[3.614s] [35m[1mScanning dependencies of target angbao_navigation2__rosidl_typesupport_fastrtps_cpp[0m
+[3.629s] [ 35%] [32mBuilding CXX object CMakeFiles/angbao_navigation2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/angbao_navigation2/msg/detail/custom_detection__type_support.cpp.o[0m
+[3.637s] [ 38%] [32mBuilding CXX object CMakeFiles/angbao_navigation2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/angbao_navigation2/msg/detail/dds_fastrtps/custom_detection__type_support.cpp.o[0m
+[3.843s] [35m[1mScanning dependencies of target angbao_navigation2__rosidl_typesupport_c[0m
+[3.866s] [ 41%] [32mBuilding CXX object CMakeFiles/angbao_navigation2__rosidl_typesupport_c.dir/rosidl_typesupport_c/angbao_navigation2/msg/custom_detection__type_support.cpp.o[0m
+[3.886s] [35m[1mScanning dependencies of target angbao_navigation2__rosidl_typesupport_introspection_c[0m
+[3.911s] [ 45%] [32mBuilding C object CMakeFiles/angbao_navigation2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/angbao_navigation2/msg/detail/custom_detection__type_support.c.o[0m
+[3.931s] [ 48%] [32m[1mLinking CXX shared library libangbao_navigation2__rosidl_typesupport_c.so[0m
+[3.972s] [ 51%] [32m[1mLinking C shared library libangbao_navigation2__rosidl_typesupport_introspection_c.so[0m
+[4.007s] [ 51%] Built target angbao_navigation2__rosidl_typesupport_c
+[4.028s] [ 51%] Built target angbao_navigation2__rosidl_typesupport_introspection_c
+[4.158s] [ 54%] [32m[1mLinking CXX shared library libangbao_navigation2__rosidl_typesupport_cpp.so[0m
+[4.183s] [ 58%] [32m[1mLinking CXX shared library libangbao_navigation2__rosidl_typesupport_introspection_cpp.so[0m
+[4.222s] [ 58%] Built target angbao_navigation2__rosidl_typesupport_cpp
+[4.303s] [ 58%] Built target angbao_navigation2__rosidl_typesupport_introspection_cpp
+[4.405s] [ 61%] [32m[1mLinking CXX shared library libangbao_navigation2__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.548s] [ 61%] Built target angbao_navigation2__rosidl_typesupport_fastrtps_cpp
+[4.568s] [ 64%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.103s] [35m[1mScanning dependencies of target angbao_navigation2__rosidl_typesupport_fastrtps_c[0m
+[5.129s] [ 67%] [32mBuilding CXX object CMakeFiles/angbao_navigation2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/angbao_navigation2/msg/detail/custom_detection__type_support_c.cpp.o[0m
+[5.712s] [ 70%] [32m[1mLinking CXX shared library libangbao_navigation2__rosidl_typesupport_fastrtps_c.so[0m
+[5.856s] [ 70%] Built target angbao_navigation2__rosidl_typesupport_fastrtps_c
+[5.894s] [ 70%] Built target angbao_navigation2
+[5.934s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[6.781s] [ 74%] Built target angbao_navigation2__py
+[6.806s] [35m[1mScanning dependencies of target angbao_navigation2__python[0m
+[6.833s] [ 77%] [32mBuilding C object CMakeFiles/angbao_navigation2__python.dir/rosidl_generator_py/angbao_navigation2/msg/_custom_detection_s.c.o[0m
+[7.021s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/angbao_navigation2/libangbao_navigation2__python.so[0m
+[7.094s] [ 80%] Built target angbao_navigation2__python
+[7.115s] [35m[1mScanning dependencies of target angbao_navigation2__rosidl_typesupport_fastrtps_c__pyext[0m
+[7.116s] [35m[1mScanning dependencies of target angbao_navigation2__rosidl_typesupport_c__pyext[0m
+[7.116s] [35m[1mScanning dependencies of target angbao_navigation2__rosidl_typesupport_introspection_c__pyext[0m
+[7.142s] [ 90%] [32mBuilding C object CMakeFiles/angbao_navigation2__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/angbao_navigation2/_angbao_navigation2_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[7.142s] [ 90%] [32mBuilding C object CMakeFiles/angbao_navigation2__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/angbao_navigation2/_angbao_navigation2_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[7.142s] [ 90%] [32mBuilding C object CMakeFiles/angbao_navigation2__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/angbao_navigation2/_angbao_navigation2_s.ep.rosidl_typesupport_c.c.o[0m
+[7.270s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/angbao_navigation2/angbao_navigation2_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so[0m
+[7.270s] [ 96%] [32m[1mLinking CXX shared library rosidl_generator_py/angbao_navigation2/angbao_navigation2_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so[0m
+[7.274s] [100%] [32m[1mLinking C shared library rosidl_generator_py/angbao_navigation2/angbao_navigation2_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so[0m
+[7.327s] [100%] Built target angbao_navigation2__rosidl_typesupport_c__pyext
+[7.331s] [100%] Built target angbao_navigation2__rosidl_typesupport_introspection_c__pyext
+[7.362s] [100%] Built target angbao_navigation2__rosidl_typesupport_fastrtps_c__pyext
+[7.389s] Invoked command in '/home/nvidia/nav2_ws/build/angbao_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(python3810) /usr/bin/cmake --build /home/nvidia/nav2_ws/build/angbao_navigation2 -- -j8 -l8
+[7.500s] Invoking command in '/home/nvidia/nav2_ws/build/angbao_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(python3810) /usr/bin/cmake --install /home/nvidia/nav2_ws/build/angbao_navigation2
+[7.515s] -- Install configuration: ""
+[7.515s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/launch
+[7.515s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/launch/navigation.launch.py
+[7.515s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/launch/navigation.launch127.py
+[7.516s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/param
+[7.516s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/param/angbao_params.yaml
+[7.516s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/param/lifecycle_manager_navigation.yaml
+[7.516s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/maps
+[7.516s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/maps/meeting_room.yaml
+[7.516s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/maps/507map.yaml
+[7.516s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/maps/507map.pgm
+[7.517s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/maps/meeting_room.pgm
+[7.517s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/ament_index/resource_index/rosidl_interfaces/angbao_navigation2
+[7.517s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2
+[7.517s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2/msg
+[7.517s] -- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2/msg/custom_detection.h
+[7.517s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2/msg/rosidl_generator_c__visibility_control.h
+[7.517s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2/msg/detail
+[7.518s] -- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2/msg/detail/custom_detection__functions.h
+[7.518s] -- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2/msg/detail/custom_detection__type_support.h
+[7.518s] -- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2/msg/detail/custom_detection__struct.h
+[7.518s] -- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2/msg/detail/custom_detection__functions.c
+[7.518s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/environment/library_path.sh
+[7.518s] -- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/environment/library_path.dsv
+[7.519s] -- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/lib/libangbao_navigation2__rosidl_generator_c.so
+[7.520s] -- Set runtime path of "/home/nvidia/nav2_ws/install/angbao_navigation2/lib/libangbao_navigation2__rosidl_generator_c.so" to ""
+[7.520s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2
+[7.520s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2/msg
+[7.520s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.521s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2/msg/detail
+[7.521s] -- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2/msg/detail/custom_detection__rosidl_typesupport_fastrtps_c.h
+[7.521s] -- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/lib/libangbao_navigation2__rosidl_typesupport_fastrtps_c.so
+[7.521s] -- Set runtime path of "/home/nvidia/nav2_ws/install/angbao_navigation2/lib/libangbao_navigation2__rosidl_typesupport_fastrtps_c.so" to ""
+[7.521s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2
+[7.521s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2/msg
+[7.522s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2/msg/detail
+[7.522s] -- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2/msg/detail/custom_detection__rosidl_typesupport_fastrtps_cpp.hpp
+[7.522s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2/msg/detail/dds_fastrtps
+[7.522s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.522s] -- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/lib/libangbao_navigation2__rosidl_typesupport_fastrtps_cpp.so
+[7.523s] -- Set runtime path of "/home/nvidia/nav2_ws/install/angbao_navigation2/lib/libangbao_navigation2__rosidl_typesupport_fastrtps_cpp.so" to ""
+[7.523s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2
+[7.523s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2/msg
+[7.523s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.523s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2/msg/detail
+[7.524s] -- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2/msg/detail/custom_detection__rosidl_typesupport_introspection_c.h
+[7.524s] -- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2/msg/detail/custom_detection__type_support.c
+[7.524s] -- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/lib/libangbao_navigation2__rosidl_typesupport_introspection_c.so
+[7.524s] -- Set runtime path of "/home/nvidia/nav2_ws/install/angbao_navigation2/lib/libangbao_navigation2__rosidl_typesupport_introspection_c.so" to ""
+[7.525s] -- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/lib/libangbao_navigation2__rosidl_typesupport_c.so
+[7.525s] -- Set runtime path of "/home/nvidia/nav2_ws/install/angbao_navigation2/lib/libangbao_navigation2__rosidl_typesupport_c.so" to ""
+[7.526s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2
+[7.526s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2/msg
+[7.526s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2/msg/rosidl_generator_cpp__visibility_control.hpp
+[7.526s] -- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2/msg/custom_detection.hpp
+[7.526s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2/msg/detail
+[7.526s] -- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2/msg/detail/custom_detection__traits.hpp
+[7.527s] -- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2/msg/detail/custom_detection__type_support.hpp
+[7.527s] -- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2/msg/detail/custom_detection__builder.hpp
+[7.527s] -- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2/msg/detail/custom_detection__struct.hpp
+[7.527s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2
+[7.527s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2/msg
+[7.527s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2/msg/detail
+[7.527s] -- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2/msg/detail/custom_detection__type_support.cpp
+[7.527s] -- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2/msg/detail/custom_detection__rosidl_typesupport_introspection_cpp.hpp
+[7.528s] -- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/lib/libangbao_navigation2__rosidl_typesupport_introspection_cpp.so
+[7.529s] -- Set runtime path of "/home/nvidia/nav2_ws/install/angbao_navigation2/lib/libangbao_navigation2__rosidl_typesupport_introspection_cpp.so" to ""
+[7.529s] -- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/lib/libangbao_navigation2__rosidl_typesupport_cpp.so
+[7.530s] -- Set runtime path of "/home/nvidia/nav2_ws/install/angbao_navigation2/lib/libangbao_navigation2__rosidl_typesupport_cpp.so" to ""
+[7.530s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/environment/pythonpath.sh
+[7.530s] -- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/environment/pythonpath.dsv
+[7.530s] -- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/lib/python3.8/site-packages/angbao_navigation2/__init__.py
+[7.587s] Compiling '/home/nvidia/nav2_ws/install/angbao_navigation2/lib/python3.8/site-packages/angbao_navigation2/__init__.py'...
+[7.597s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/lib/python3.8/site-packages/angbao_navigation2/msg
+[7.597s] -- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/lib/python3.8/site-packages/angbao_navigation2/msg/__init__.py
+[7.597s] -- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/lib/python3.8/site-packages/angbao_navigation2/msg/_custom_detection_s.c
+[7.598s] -- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/lib/python3.8/site-packages/angbao_navigation2/msg/_custom_detection.py
+[7.598s] -- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/lib/python3.8/site-packages/angbao_navigation2/angbao_navigation2_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[7.599s] -- Set runtime path of "/home/nvidia/nav2_ws/install/angbao_navigation2/lib/python3.8/site-packages/angbao_navigation2/angbao_navigation2_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""
+[7.600s] -- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/lib/python3.8/site-packages/angbao_navigation2/angbao_navigation2_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[7.601s] -- Set runtime path of "/home/nvidia/nav2_ws/install/angbao_navigation2/lib/python3.8/site-packages/angbao_navigation2/angbao_navigation2_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""
+[7.601s] -- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/lib/python3.8/site-packages/angbao_navigation2/angbao_navigation2_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[7.602s] -- Set runtime path of "/home/nvidia/nav2_ws/install/angbao_navigation2/lib/python3.8/site-packages/angbao_navigation2/angbao_navigation2_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""
+[7.603s] -- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/lib/libangbao_navigation2__python.so
+[7.603s] -- Set runtime path of "/home/nvidia/nav2_ws/install/angbao_navigation2/lib/libangbao_navigation2__python.so" to ""
+[7.603s] -- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/msg/CustomDetection.idl
+[7.604s] -- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/msg/CustomDetection.msg
+[7.604s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/ament_index/resource_index/package_run_dependencies/angbao_navigation2
+[7.604s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/ament_index/resource_index/parent_prefix_path/angbao_navigation2
+[7.604s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/environment/ament_prefix_path.sh
+[7.605s] -- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/environment/ament_prefix_path.dsv
+[7.605s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/environment/path.sh
+[7.605s] -- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/environment/path.dsv
+[7.605s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/local_setup.bash
+[7.605s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/local_setup.sh
+[7.606s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/local_setup.zsh
+[7.606s] -- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/local_setup.dsv
+[7.606s] -- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/package.dsv
+[7.606s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/ament_index/resource_index/packages/angbao_navigation2
+[7.607s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/cmake/angbao_navigation2__rosidl_generator_cExport.cmake
+[7.607s] -- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/cmake/angbao_navigation2__rosidl_generator_cExport-noconfig.cmake
+[7.608s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/cmake/angbao_navigation2__rosidl_typesupport_introspection_cExport.cmake
+[7.608s] -- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/cmake/angbao_navigation2__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.609s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/cmake/angbao_navigation2__rosidl_typesupport_cExport.cmake
+[7.609s] -- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/cmake/angbao_navigation2__rosidl_typesupport_cExport-noconfig.cmake
+[7.609s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/cmake/angbao_navigation2__rosidl_generator_cppExport.cmake
+[7.610s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/cmake/angbao_navigation2__rosidl_typesupport_introspection_cppExport.cmake
+[7.610s] -- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/cmake/angbao_navigation2__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.611s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/cmake/angbao_navigation2__rosidl_typesupport_cppExport.cmake
+[7.611s] -- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/cmake/angbao_navigation2__rosidl_typesupport_cppExport-noconfig.cmake
+[7.611s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/cmake/rosidl_cmake-extras.cmake
+[7.611s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.611s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/cmake/ament_cmake_export_libraries-extras.cmake
+[7.612s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/cmake/ament_cmake_export_targets-extras.cmake
+[7.612s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.612s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.612s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.612s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/cmake/angbao_navigation2Config.cmake
+[7.612s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/cmake/angbao_navigation2Config-version.cmake
+[7.612s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/package.xml
+[7.617s] Invoked command in '/home/nvidia/nav2_ws/build/angbao_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(python3810) /usr/bin/cmake --install /home/nvidia/nav2_ws/build/angbao_navigation2

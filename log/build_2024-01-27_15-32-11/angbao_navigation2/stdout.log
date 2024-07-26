@@ -1,0 +1,38 @@
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /home/nvidia/miniconda3/bin/python3
+-- Found nav2_bringup: 0.4.7 (/opt/ros/foxy/share/nav2_bringup/cmake)
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/nvidia/nav2_ws/build/angbao_navigation2
+-- Install configuration: ""
+-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/launch
+-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/launch/navigation.launch.py
+-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/param
+-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/param/angbao_params.yaml
+-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/param/lifecycle_manager_navigation.yaml
+-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/maps
+-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/maps/meeting_room.yaml
+-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/maps/507map.yaml
+-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/maps/507map.pgm
+-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/maps/meeting_room.pgm
+-- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/share/ament_index/resource_index/package_run_dependencies/angbao_navigation2
+-- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/share/ament_index/resource_index/parent_prefix_path/angbao_navigation2
+-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/environment/ament_prefix_path.sh
+-- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/environment/path.sh
+-- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/environment/path.dsv
+-- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/local_setup.bash
+-- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/local_setup.sh
+-- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/local_setup.zsh
+-- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/local_setup.dsv
+-- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/package.dsv
+-- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/share/ament_index/resource_index/packages/angbao_navigation2
+-- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/cmake/angbao_navigation2Config.cmake
+-- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/cmake/angbao_navigation2Config-version.cmake
+-- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/package.xml

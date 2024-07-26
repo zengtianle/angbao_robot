@@ -1,0 +1,3 @@
+sensor_msgs/Image image
+int32[4] anchors
+

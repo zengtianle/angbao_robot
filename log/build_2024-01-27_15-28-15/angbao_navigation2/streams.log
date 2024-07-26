@@ -1,0 +1,16 @@
+[0.536s] Invoking command in '/home/nvidia/nav2_ws/build/angbao_navigation2': CMAKE_PREFIX_PATH=/home/nvidia/nav2_ws/install/angbao_navigation2:/home/nvidia/bt_ws/install/dwb_msgs:/home/nvidia/bt_ws/install/nav_2d_msgs:/home/nvidia/bt_ws/install/nav2_common:/home/nvidia/bt_ws/install/my_behavior_tree_ros2:/home/nvidia/bt_ws/install/behaviortree_cpp:/opt/ros/foxy:/opt/ros/noetic CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/nvidia/nav2_ws/build/angbao_navigation2 -- -j8 -l8
+[0.585s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.626s] -- Using PYTHON_EXECUTABLE: /home/nvidia/miniconda3/bin/python3
+[1.019s] -- Found nav2_bringup: 0.4.7 (/opt/ros/foxy/share/nav2_bringup/cmake)
+[1.020s] CMake Error at /opt/ros/foxy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:34 (message):
+[1.020s]   ament_python_install_package() called with unused arguments:
+[1.020s]   PACKAGE_SCRIPTS;angbao_navigation2/nav_to_pose.py
+[1.021s] Call Stack (most recent call first):
+[1.021s]   /opt/ros/foxy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:28 (_ament_cmake_python_install_package)
+[1.021s]   CMakeLists.txt:27 (ament_python_install_package)
+[1.021s] 
+[1.021s] 
+[1.021s] -- Configuring incomplete, errors occurred!
+[1.021s] See also "/home/nvidia/nav2_ws/build/angbao_navigation2/CMakeFiles/CMakeOutput.log".
+[1.025s] make: *** [Makefile:222: cmake_check_build_system] Error 1
+[1.029s] Invoked command in '/home/nvidia/nav2_ws/build/angbao_navigation2' returned '2': CMAKE_PREFIX_PATH=/home/nvidia/nav2_ws/install/angbao_navigation2:/home/nvidia/bt_ws/install/dwb_msgs:/home/nvidia/bt_ws/install/nav_2d_msgs:/home/nvidia/bt_ws/install/nav2_common:/home/nvidia/bt_ws/install/my_behavior_tree_ros2:/home/nvidia/bt_ws/install/behaviortree_cpp:/opt/ros/foxy:/opt/ros/noetic CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/nvidia/nav2_ws/build/angbao_navigation2 -- -j8 -l8

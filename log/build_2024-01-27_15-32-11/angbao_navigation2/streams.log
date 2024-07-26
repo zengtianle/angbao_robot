@@ -1,0 +1,44 @@
+[0.549s] Invoking command in '/home/nvidia/nav2_ws/build/angbao_navigation2': CMAKE_PREFIX_PATH=/home/nvidia/nav2_ws/install/angbao_navigation2:/home/nvidia/bt_ws/install/dwb_msgs:/home/nvidia/bt_ws/install/nav_2d_msgs:/home/nvidia/bt_ws/install/nav2_common:/home/nvidia/bt_ws/install/my_behavior_tree_ros2:/home/nvidia/bt_ws/install/behaviortree_cpp:/opt/ros/foxy:/opt/ros/noetic CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/nvidia/nav2_ws/src/angbao_navigation2 -DCMAKE_INSTALL_PREFIX=/home/nvidia/nav2_ws/install/angbao_navigation2
+[0.574s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.615s] -- Using PYTHON_EXECUTABLE: /home/nvidia/miniconda3/bin/python3
+[1.007s] -- Found nav2_bringup: 0.4.7 (/opt/ros/foxy/share/nav2_bringup/cmake)
+[1.009s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.193s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.197s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.198s] -- Added test 'lint_cmake' to check CMake code style
+[1.199s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.201s] -- Added test 'xmllint' to check XML markup files
+[1.205s] -- Configuring done
+[1.208s] -- Generating done
+[1.209s] -- Build files have been written to: /home/nvidia/nav2_ws/build/angbao_navigation2
+[1.214s] Invoked command in '/home/nvidia/nav2_ws/build/angbao_navigation2' returned '0': CMAKE_PREFIX_PATH=/home/nvidia/nav2_ws/install/angbao_navigation2:/home/nvidia/bt_ws/install/dwb_msgs:/home/nvidia/bt_ws/install/nav_2d_msgs:/home/nvidia/bt_ws/install/nav2_common:/home/nvidia/bt_ws/install/my_behavior_tree_ros2:/home/nvidia/bt_ws/install/behaviortree_cpp:/opt/ros/foxy:/opt/ros/noetic CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/nvidia/nav2_ws/src/angbao_navigation2 -DCMAKE_INSTALL_PREFIX=/home/nvidia/nav2_ws/install/angbao_navigation2
+[1.221s] Invoking command in '/home/nvidia/nav2_ws/build/angbao_navigation2': CMAKE_PREFIX_PATH=/home/nvidia/nav2_ws/install/angbao_navigation2:/home/nvidia/bt_ws/install/dwb_msgs:/home/nvidia/bt_ws/install/nav_2d_msgs:/home/nvidia/bt_ws/install/nav2_common:/home/nvidia/bt_ws/install/my_behavior_tree_ros2:/home/nvidia/bt_ws/install/behaviortree_cpp:/opt/ros/foxy:/opt/ros/noetic CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/nvidia/nav2_ws/build/angbao_navigation2 -- -j8 -l8
+[1.296s] Invoked command in '/home/nvidia/nav2_ws/build/angbao_navigation2' returned '0': CMAKE_PREFIX_PATH=/home/nvidia/nav2_ws/install/angbao_navigation2:/home/nvidia/bt_ws/install/dwb_msgs:/home/nvidia/bt_ws/install/nav_2d_msgs:/home/nvidia/bt_ws/install/nav2_common:/home/nvidia/bt_ws/install/my_behavior_tree_ros2:/home/nvidia/bt_ws/install/behaviortree_cpp:/opt/ros/foxy:/opt/ros/noetic CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/nvidia/nav2_ws/build/angbao_navigation2 -- -j8 -l8
+[1.362s] Invoking command in '/home/nvidia/nav2_ws/build/angbao_navigation2': CMAKE_PREFIX_PATH=/home/nvidia/nav2_ws/install/angbao_navigation2:/home/nvidia/bt_ws/install/dwb_msgs:/home/nvidia/bt_ws/install/nav_2d_msgs:/home/nvidia/bt_ws/install/nav2_common:/home/nvidia/bt_ws/install/my_behavior_tree_ros2:/home/nvidia/bt_ws/install/behaviortree_cpp:/opt/ros/foxy:/opt/ros/noetic CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/nvidia/nav2_ws/build/angbao_navigation2
+[1.379s] -- Install configuration: ""
+[1.380s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/launch
+[1.380s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/launch/navigation.launch.py
+[1.380s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/param
+[1.380s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/param/angbao_params.yaml
+[1.380s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/param/lifecycle_manager_navigation.yaml
+[1.381s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/maps
+[1.381s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/maps/meeting_room.yaml
+[1.381s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/maps/507map.yaml
+[1.381s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/maps/507map.pgm
+[1.381s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/maps/meeting_room.pgm
+[1.381s] -- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/share/ament_index/resource_index/package_run_dependencies/angbao_navigation2
+[1.381s] -- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/share/ament_index/resource_index/parent_prefix_path/angbao_navigation2
+[1.382s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/environment/ament_prefix_path.sh
+[1.382s] -- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/environment/ament_prefix_path.dsv
+[1.382s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/environment/path.sh
+[1.382s] -- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/environment/path.dsv
+[1.382s] -- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/local_setup.bash
+[1.382s] -- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/local_setup.sh
+[1.382s] -- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/local_setup.zsh
+[1.383s] -- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/local_setup.dsv
+[1.383s] -- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/package.dsv
+[1.383s] -- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/share/ament_index/resource_index/packages/angbao_navigation2
+[1.383s] -- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/cmake/angbao_navigation2Config.cmake
+[1.383s] -- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/cmake/angbao_navigation2Config-version.cmake
+[1.383s] -- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/package.xml
+[1.387s] Invoked command in '/home/nvidia/nav2_ws/build/angbao_navigation2' returned '0': CMAKE_PREFIX_PATH=/home/nvidia/nav2_ws/install/angbao_navigation2:/home/nvidia/bt_ws/install/dwb_msgs:/home/nvidia/bt_ws/install/nav_2d_msgs:/home/nvidia/bt_ws/install/nav2_common:/home/nvidia/bt_ws/install/my_behavior_tree_ros2:/home/nvidia/bt_ws/install/behaviortree_cpp:/opt/ros/foxy:/opt/ros/noetic CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/nvidia/nav2_ws/build/angbao_navigation2

@@ -1,0 +1,3 @@
+source;share/angbao_navigation2/environment/ament_prefix_path.sh
+source;share/angbao_navigation2/environment/library_path.sh
+source;share/angbao_navigation2/environment/path.sh

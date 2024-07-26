@@ -1,0 +1,5 @@
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /home/nvidia/miniconda3/bin/python3
+-- Found nav2_bringup: 0.4.7 (/opt/ros/foxy/share/nav2_bringup/cmake)
+-- Configuring incomplete, errors occurred!
+See also "/home/nvidia/nav2_ws/build/angbao_navigation2/CMakeFiles/CMakeOutput.log".

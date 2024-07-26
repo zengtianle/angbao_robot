@@ -1,0 +1,46 @@
+[0.467s] Invoking command in '/home/nvidia/nav2_ws/build/depointcloud': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/nvidia/nav2_ws/src/depointcloud -DCMAKE_INSTALL_PREFIX=/home/nvidia/nav2_ws/install/depointcloud
+[0.757s] -- The C compiler identification is GNU 9.4.0
+[0.993s] -- The CXX compiler identification is GNU 9.4.0
+[1.016s] -- Check for working C compiler: /usr/bin/cc
+[1.207s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.209s] -- Detecting C compiler ABI info
+[1.423s] -- Detecting C compiler ABI info - done
+[1.443s] -- Detecting C compile features
+[1.445s] -- Detecting C compile features - done
+[1.451s] -- Check for working CXX compiler: /usr/bin/c++
+[1.668s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.672s] -- Detecting CXX compiler ABI info
+[1.909s] -- Detecting CXX compiler ABI info - done
+[1.946s] -- Detecting CXX compile features
+[1.946s] -- Detecting CXX compile features - done
+[1.955s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.043s] -- Found PythonInterp: /home/nvidia/miniconda3/bin/python3 (found suitable version "3.8.18", minimum required is "3") 
+[2.043s] -- Using PYTHON_EXECUTABLE: /home/nvidia/miniconda3/bin/python3
+[2.650s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.980s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.985s] -- Added test 'lint_cmake' to check CMake code style
+[2.988s] -- Added test 'xmllint' to check XML markup files
+[2.995s] -- Configuring done
+[3.002s] -- Generating done
+[3.008s] -- Build files have been written to: /home/nvidia/nav2_ws/build/depointcloud
+[3.015s] Invoked command in '/home/nvidia/nav2_ws/build/depointcloud' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/nvidia/nav2_ws/src/depointcloud -DCMAKE_INSTALL_PREFIX=/home/nvidia/nav2_ws/install/depointcloud
+[3.017s] Invoking command in '/home/nvidia/nav2_ws/build/depointcloud': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/nvidia/nav2_ws/build/depointcloud -- -j8 -l8
+[3.126s] Invoked command in '/home/nvidia/nav2_ws/build/depointcloud' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/nvidia/nav2_ws/build/depointcloud -- -j8 -l8
+[3.193s] Invoking command in '/home/nvidia/nav2_ws/build/depointcloud': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/nvidia/nav2_ws/build/depointcloud
+[3.212s] -- Install configuration: ""
+[3.212s] -- Installing: /home/nvidia/nav2_ws/install/depointcloud/share/ament_index/resource_index/package_run_dependencies/depointcloud
+[3.212s] -- Installing: /home/nvidia/nav2_ws/install/depointcloud/share/ament_index/resource_index/parent_prefix_path/depointcloud
+[3.214s] -- Installing: /home/nvidia/nav2_ws/install/depointcloud/share/depointcloud/environment/ament_prefix_path.sh
+[3.214s] -- Installing: /home/nvidia/nav2_ws/install/depointcloud/share/depointcloud/environment/ament_prefix_path.dsv
+[3.214s] -- Installing: /home/nvidia/nav2_ws/install/depointcloud/share/depointcloud/environment/path.sh
+[3.215s] -- Installing: /home/nvidia/nav2_ws/install/depointcloud/share/depointcloud/environment/path.dsv
+[3.215s] -- Installing: /home/nvidia/nav2_ws/install/depointcloud/share/depointcloud/local_setup.bash
+[3.215s] -- Installing: /home/nvidia/nav2_ws/install/depointcloud/share/depointcloud/local_setup.sh
+[3.215s] -- Installing: /home/nvidia/nav2_ws/install/depointcloud/share/depointcloud/local_setup.zsh
+[3.215s] -- Installing: /home/nvidia/nav2_ws/install/depointcloud/share/depointcloud/local_setup.dsv
+[3.216s] -- Installing: /home/nvidia/nav2_ws/install/depointcloud/share/depointcloud/package.dsv
+[3.217s] -- Installing: /home/nvidia/nav2_ws/install/depointcloud/share/ament_index/resource_index/packages/depointcloud
+[3.217s] -- Installing: /home/nvidia/nav2_ws/install/depointcloud/share/depointcloud/cmake/depointcloudConfig.cmake
+[3.217s] -- Installing: /home/nvidia/nav2_ws/install/depointcloud/share/depointcloud/cmake/depointcloudConfig-version.cmake
+[3.218s] -- Installing: /home/nvidia/nav2_ws/install/depointcloud/share/depointcloud/package.xml
+[3.233s] Invoked command in '/home/nvidia/nav2_ws/build/depointcloud' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/nvidia/nav2_ws/build/depointcloud

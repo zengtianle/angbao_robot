@@ -1,0 +1,199 @@
+[0.000000] (-) TimerEvent: {}
+[0.000789] (angbao_navigation2) JobQueued: {'identifier': 'angbao_navigation2', 'dependencies': OrderedDict()}
+[0.001422] (angbao_navigation2) JobStarted: {'identifier': 'angbao_navigation2'}
+[0.130859] (-) TimerEvent: {}
+[0.232108] (-) TimerEvent: {}
+[0.333074] (-) TimerEvent: {}
+[0.360768] (angbao_navigation2) JobProgress: {'identifier': 'angbao_navigation2', 'progress': 'cmake'}
+[0.364057] (angbao_navigation2) JobProgress: {'identifier': 'angbao_navigation2', 'progress': 'build'}
+[0.365744] (angbao_navigation2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nvidia/nav2_ws/build/angbao_navigation2', '--', '-j8', '-l8'], 'cwd': '/home/nvidia/nav2_ws/build/angbao_navigation2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'nvidia'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '3709'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/home/nvidia/opencv-3.4.16/build/installed/lib'), ('HOME', '/home/nvidia'), ('CONDA_SHLVL', '1'), ('DESKTOP_SESSION', 'ubuntu'), ('CUDNN_HOME', '/usr/local/cuda-11.4'), ('JETSON_L4T', '35.2.1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Orin NX Developer Kit'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '2338'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a3c58c9ea2960bd9f63eaf39663c52c9'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'nvidia'), ('JETSON_MODULE', 'NVIDIA Jetson Orin NX (16GB ram)'), ('JETSON_SERIAL_NUMBER', '1424922035925'), ('JOURNAL_STREAM', '7:65088'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/nvidia/opencv-3.4.16/build/installed/lib/pkgconfig'), ('JETSON_CODENAME', 'P3768'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nvidia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/nvidia/miniconda3/bin:/home/nvidia/miniconda3/condabin:/usr/local/cuda-11.4/bin:/home/nvidia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/nvidia/.fishros/bin/'), ('SESSION_MANAGER', 'local/orin-nx:@/tmp/.ICE-unix/3756,unix/orin-nx:/tmp/.ICE-unix/3756'), ('INVOCATION_ID', 'f5002a4320f542808e43e1bb96d7f03f'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fe233945_848b_4df6_a483_fa0239f6bacc'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra23x'), ('GNOME_TERMINAL_SERVICE', ':1.87'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/nvidia/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/nvidia/nav2_ws/build/angbao_navigation2'), ('LC_ALL', 'en_US.UTF-8'), ('CUDA_HOME', '/usr/local/cuda-11.4'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/nvidia/miniconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a3c58c9ea2960bd9f63eaf39663c52c9'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('CONDA_PREFIX', '/home/nvidia/miniconda3'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('JETSON_JETPACK', '5.1'), ('JETSON_P_NUMBER', 'p3767-0000'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.433382] (-) TimerEvent: {}
+[0.485858] (angbao_navigation2) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.533918] (-) TimerEvent: {}
+[0.555097] (angbao_navigation2) StdoutLine: {'line': b'-- Found PythonInterp: /home/nvidia/miniconda3/bin/python3 (found suitable version "3.8.18", minimum required is "3") \n'}
+[0.556100] (angbao_navigation2) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /home/nvidia/miniconda3/bin/python3\n'}
+[0.634058] (-) TimerEvent: {}
+[0.734860] (-) TimerEvent: {}
+[0.835960] (-) TimerEvent: {}
+[0.937896] (-) TimerEvent: {}
+[1.038812] (-) TimerEvent: {}
+[1.135865] (angbao_navigation2) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[1.138868] (-) TimerEvent: {}
+[1.220126] (angbao_navigation2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.228234] (angbao_navigation2) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.239074] (-) TimerEvent: {}
+[1.339745] (-) TimerEvent: {}
+[1.440661] (-) TimerEvent: {}
+[1.527354] (angbao_navigation2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.540726] (-) TimerEvent: {}
+[1.641305] (-) TimerEvent: {}
+[1.644671] (angbao_navigation2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.648058] (angbao_navigation2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.741475] (-) TimerEvent: {}
+[1.842160] (-) TimerEvent: {}
+[1.942871] (-) TimerEvent: {}
+[1.966733] (angbao_navigation2) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[2.043082] (-) TimerEvent: {}
+[2.143915] (-) TimerEvent: {}
+[2.244608] (-) TimerEvent: {}
+[2.246521] (angbao_navigation2) StdoutLine: {'line': b'-- Found PythonInterp: /home/nvidia/miniconda3/bin/python3 (found version "3.8.18") \n'}
+[2.344797] (-) TimerEvent: {}
+[2.446259] (-) TimerEvent: {}
+[2.547018] (-) TimerEvent: {}
+[2.627173] (angbao_navigation2) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[2.647209] (-) TimerEvent: {}
+[2.747927] (-) TimerEvent: {}
+[2.848634] (-) TimerEvent: {}
+[2.860283] (angbao_navigation2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.878838] (angbao_navigation2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.882279] (angbao_navigation2) StdoutLine: {'line': b'-- Found nav2_bringup: 0.4.7 (/opt/ros/foxy/share/nav2_bringup/cmake)\n'}
+[2.882890] (angbao_navigation2) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[2.913398] (angbao_navigation2) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.930159] (angbao_navigation2) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.930931] (angbao_navigation2) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.931162] (angbao_navigation2) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.936242] (angbao_navigation2) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.936460] (angbao_navigation2) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.937549] (angbao_navigation2) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.939273] (angbao_navigation2) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.940538] (angbao_navigation2) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[2.945812] (angbao_navigation2) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.946626] (angbao_navigation2) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.948740] (-) TimerEvent: {}
+[2.949187] (angbao_navigation2) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.961315] (angbao_navigation2) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.026532] (angbao_navigation2) StdoutLine: {'line': b'-- Generating done\n'}
+[3.036418] (angbao_navigation2) StdoutLine: {'line': b'-- Build files have been written to: /home/nvidia/nav2_ws/build/angbao_navigation2\n'}
+[3.048918] (-) TimerEvent: {}
+[3.138531] (angbao_navigation2) StdoutLine: {'line': b'[  4%] Built target angbao_navigation2__cpp\n'}
+[3.140356] (angbao_navigation2) StdoutLine: {'line': b'[ 18%] Built target angbao_navigation2__rosidl_generator_c\n'}
+[3.149101] (-) TimerEvent: {}
+[3.194177] (angbao_navigation2) StdoutLine: {'line': b'[ 45%] Built target angbao_navigation2__rosidl_typesupport_cpp\n'}
+[3.194829] (angbao_navigation2) StdoutLine: {'line': b'[ 45%] Built target angbao_navigation2__rosidl_typesupport_introspection_c\n'}
+[3.195328] (angbao_navigation2) StdoutLine: {'line': b'[ 59%] Built target angbao_navigation2__rosidl_typesupport_introspection_cpp\n'}
+[3.195917] (angbao_navigation2) StdoutLine: {'line': b'[ 72%] Built target angbao_navigation2__rosidl_typesupport_c\n'}
+[3.202821] (angbao_navigation2) StdoutLine: {'line': b'[ 86%] Built target angbao_navigation2__rosidl_typesupport_fastrtps_cpp\n'}
+[3.249306] (-) TimerEvent: {}
+[3.262697] (angbao_navigation2) StdoutLine: {'line': b'[100%] Built target angbao_navigation2__rosidl_typesupport_fastrtps_c\n'}
+[3.309536] (angbao_navigation2) StdoutLine: {'line': b'[100%] Built target angbao_navigation2\n'}
+[3.340053] (angbao_navigation2) CommandEnded: {'returncode': 0}
+[3.349814] (-) TimerEvent: {}
+[3.428499] (angbao_navigation2) JobProgress: {'identifier': 'angbao_navigation2', 'progress': 'install'}
+[3.449725] (angbao_navigation2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nvidia/nav2_ws/build/angbao_navigation2'], 'cwd': '/home/nvidia/nav2_ws/build/angbao_navigation2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'nvidia'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '3709'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/home/nvidia/opencv-3.4.16/build/installed/lib'), ('HOME', '/home/nvidia'), ('CONDA_SHLVL', '1'), ('DESKTOP_SESSION', 'ubuntu'), ('CUDNN_HOME', '/usr/local/cuda-11.4'), ('JETSON_L4T', '35.2.1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Orin NX Developer Kit'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '2338'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a3c58c9ea2960bd9f63eaf39663c52c9'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'nvidia'), ('JETSON_MODULE', 'NVIDIA Jetson Orin NX (16GB ram)'), ('JETSON_SERIAL_NUMBER', '1424922035925'), ('JOURNAL_STREAM', '7:65088'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/nvidia/opencv-3.4.16/build/installed/lib/pkgconfig'), ('JETSON_CODENAME', 'P3768'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nvidia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/nvidia/miniconda3/bin:/home/nvidia/miniconda3/condabin:/usr/local/cuda-11.4/bin:/home/nvidia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/nvidia/.fishros/bin/'), ('SESSION_MANAGER', 'local/orin-nx:@/tmp/.ICE-unix/3756,unix/orin-nx:/tmp/.ICE-unix/3756'), ('INVOCATION_ID', 'f5002a4320f542808e43e1bb96d7f03f'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fe233945_848b_4df6_a483_fa0239f6bacc'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra23x'), ('GNOME_TERMINAL_SERVICE', ':1.87'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/nvidia/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/nvidia/nav2_ws/build/angbao_navigation2'), ('LC_ALL', 'en_US.UTF-8'), ('CUDA_HOME', '/usr/local/cuda-11.4'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/nvidia/miniconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a3c58c9ea2960bd9f63eaf39663c52c9'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('CONDA_PREFIX', '/home/nvidia/miniconda3'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('JETSON_JETPACK', '5.1'), ('JETSON_P_NUMBER', 'p3767-0000'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[3.458961] (-) TimerEvent: {}
+[3.480099] (angbao_navigation2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.484115] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/launch\n'}
+[3.484958] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/launch/navigation.launch.py\n'}
+[3.485237] (angbao_navigation2) StdoutLine: {'line': b'-- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/launch/depthtoscan.launch\n'}
+[3.485589] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/launch/navigation.launch127.py\n'}
+[3.485802] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/param\n'}
+[3.485991] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/param/angbao_params.yaml\n'}
+[3.486140] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/param/lifecycle_manager_navigation.yaml\n'}
+[3.486280] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/maps\n'}
+[3.486414] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/maps/meeting_room.yaml\n'}
+[3.486542] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/maps/507map.yaml\n'}
+[3.486669] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/maps/kong.pgm\n'}
+[3.486792] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/maps/507map.pgm\n'}
+[3.486914] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/maps/kong.yaml\n'}
+[3.487121] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/maps/meeting_room.pgm\n'}
+[3.487253] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/ament_index/resource_index/rosidl_interfaces/angbao_navigation2\n'}
+[3.487416] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2\n'}
+[3.487627] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2/msg\n'}
+[3.487794] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2/msg/custom_detection.h\n'}
+[3.487951] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.488086] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2/msg/detail\n'}
+[3.488210] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2/msg/detail/custom_detection__functions.h\n'}
+[3.488336] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2/msg/detail/custom_detection__type_support.h\n'}
+[3.488499] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2/msg/detail/custom_detection__struct.h\n'}
+[3.488626] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2/msg/detail/custom_detection__functions.c\n'}
+[3.488749] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/environment/library_path.sh\n'}
+[3.488955] (angbao_navigation2) StdoutLine: {'line': b'-- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/environment/library_path.dsv\n'}
+[3.489134] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/lib/libangbao_navigation2__rosidl_generator_c.so\n'}
+[3.489291] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2\n'}
+[3.489417] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2/msg\n'}
+[3.489538] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.489662] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2/msg/detail\n'}
+[3.489782] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2/msg/detail/custom_detection__rosidl_typesupport_fastrtps_c.h\n'}
+[3.489956] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/lib/libangbao_navigation2__rosidl_typesupport_fastrtps_c.so\n'}
+[3.490082] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2\n'}
+[3.490204] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2/msg\n'}
+[3.490418] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2/msg/detail\n'}
+[3.490625] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2/msg/detail/custom_detection__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.490790] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2/msg/detail/dds_fastrtps\n'}
+[3.490918] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.491041] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/lib/libangbao_navigation2__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.491311] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2\n'}
+[3.491501] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2/msg\n'}
+[3.491653] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.491796] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2/msg/detail\n'}
+[3.491967] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2/msg/detail/custom_detection__rosidl_typesupport_introspection_c.h\n'}
+[3.492108] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2/msg/detail/custom_detection__type_support.c\n'}
+[3.492239] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/lib/libangbao_navigation2__rosidl_typesupport_introspection_c.so\n'}
+[3.492449] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/lib/libangbao_navigation2__rosidl_typesupport_c.so\n'}
+[3.492679] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2\n'}
+[3.492876] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2/msg\n'}
+[3.493092] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[3.493286] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2/msg/custom_detection.hpp\n'}
+[3.493491] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2/msg/detail\n'}
+[3.493648] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2/msg/detail/custom_detection__traits.hpp\n'}
+[3.493776] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2/msg/detail/custom_detection__type_support.hpp\n'}
+[3.493899] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2/msg/detail/custom_detection__builder.hpp\n'}
+[3.494021] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2/msg/detail/custom_detection__struct.hpp\n'}
+[3.494141] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2\n'}
+[3.494304] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2/msg\n'}
+[3.494442] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2/msg/detail\n'}
+[3.494565] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2/msg/detail/custom_detection__type_support.cpp\n'}
+[3.494688] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/include/angbao_navigation2/msg/detail/custom_detection__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.494810] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/lib/libangbao_navigation2__rosidl_typesupport_introspection_cpp.so\n'}
+[3.495173] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/lib/libangbao_navigation2__rosidl_typesupport_cpp.so\n'}
+[3.495764] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/msg/CustomDetection.idl\n'}
+[3.496074] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/msg/CustomDetection.msg\n'}
+[3.496272] (angbao_navigation2) StdoutLine: {'line': b'-- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/share/ament_index/resource_index/package_run_dependencies/angbao_navigation2\n'}
+[3.496761] (angbao_navigation2) StdoutLine: {'line': b'-- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/share/ament_index/resource_index/parent_prefix_path/angbao_navigation2\n'}
+[3.497121] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/environment/ament_prefix_path.sh\n'}
+[3.497449] (angbao_navigation2) StdoutLine: {'line': b'-- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/environment/ament_prefix_path.dsv\n'}
+[3.497773] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/environment/path.sh\n'}
+[3.497927] (angbao_navigation2) StdoutLine: {'line': b'-- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/environment/path.dsv\n'}
+[3.498120] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/local_setup.bash\n'}
+[3.498342] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/local_setup.sh\n'}
+[3.498550] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/local_setup.zsh\n'}
+[3.498696] (angbao_navigation2) StdoutLine: {'line': b'-- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/local_setup.dsv\n'}
+[3.498882] (angbao_navigation2) StdoutLine: {'line': b'-- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/package.dsv\n'}
+[3.499255] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/ament_index/resource_index/packages/angbao_navigation2\n'}
+[3.499899] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/cmake/angbao_navigation2__rosidl_generator_cExport.cmake\n'}
+[3.500075] (angbao_navigation2) StdoutLine: {'line': b'-- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/cmake/angbao_navigation2__rosidl_generator_cExport-noconfig.cmake\n'}
+[3.500816] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/cmake/angbao_navigation2__rosidl_typesupport_introspection_cExport.cmake\n'}
+[3.501047] (angbao_navigation2) StdoutLine: {'line': b'-- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/cmake/angbao_navigation2__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[3.501646] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/cmake/angbao_navigation2__rosidl_typesupport_cExport.cmake\n'}
+[3.501810] (angbao_navigation2) StdoutLine: {'line': b'-- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/cmake/angbao_navigation2__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[3.502540] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/cmake/angbao_navigation2__rosidl_generator_cppExport.cmake\n'}
+[3.503009] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/cmake/angbao_navigation2__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[3.503183] (angbao_navigation2) StdoutLine: {'line': b'-- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/cmake/angbao_navigation2__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[3.503818] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/cmake/angbao_navigation2__rosidl_typesupport_cppExport.cmake\n'}
+[3.504026] (angbao_navigation2) StdoutLine: {'line': b'-- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/cmake/angbao_navigation2__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[3.504337] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/cmake/rosidl_cmake-extras.cmake\n'}
+[3.504500] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.504658] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.504819] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.504999] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.505157] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.505332] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.505506] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/cmake/angbao_navigation2Config.cmake\n'}
+[3.505639] (angbao_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/cmake/angbao_navigation2Config-version.cmake\n'}
+[3.505762] (angbao_navigation2) StdoutLine: {'line': b'-- Installing: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/package.xml\n'}
+[3.510050] (angbao_navigation2) CommandEnded: {'returncode': 0}
+[3.559155] (-) TimerEvent: {}
+[3.660089] (-) TimerEvent: {}
+[3.761245] (-) TimerEvent: {}
+[3.862222] (-) TimerEvent: {}
+[3.963172] (-) TimerEvent: {}
+[4.064089] (-) TimerEvent: {}
+[4.165409] (-) TimerEvent: {}
+[4.266357] (-) TimerEvent: {}
+[4.367511] (-) TimerEvent: {}
+[4.470631] (-) TimerEvent: {}
+[4.572029] (-) TimerEvent: {}
+[4.675727] (-) TimerEvent: {}
+[4.776636] (-) TimerEvent: {}
+[4.825786] (angbao_navigation2) JobEnded: {'identifier': 'angbao_navigation2', 'rc': 0}
+[4.827741] (-) EventReactorShutdown: {}

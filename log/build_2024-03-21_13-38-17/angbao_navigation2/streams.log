@@ -1,0 +1,93 @@
+[0.314s] Invoking command in '/home/nvidia/nav2_ws/build/angbao_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(python3810) /usr/bin/cmake --build /home/nvidia/nav2_ws/build/angbao_navigation2 -- -j8 -l8
+[0.359s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.399s] -- Found PythonInterp: /home/nvidia/miniconda3/bin/python3 (found suitable version "3.8.18", minimum required is "3") 
+[0.399s] -- Using PYTHON_EXECUTABLE: /home/nvidia/miniconda3/bin/python3
+[0.749s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.797s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.801s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.996s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.063s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.064s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.259s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.452s] -- Found PythonInterp: /home/nvidia/miniconda3/bin/python3 (found version "3.8.18") 
+[1.729s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[1.906s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.919s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.922s] -- Found nav2_bringup: 0.4.7 (/opt/ros/foxy/share/nav2_bringup/cmake)
+[1.922s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.947s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.954s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.955s] -- Configured cppcheck include dirs: 
+[1.955s] -- Configured cppcheck exclude dirs and/or files: 
+[1.958s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.958s] -- Configured cpplint exclude dirs and/or files: 
+[1.960s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.961s] -- Added test 'lint_cmake' to check CMake code style
+[1.962s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.965s] -- Added test 'uncrustify' to check C / C++ code style
+[1.965s] -- Configured uncrustify additional arguments: 
+[1.966s] -- Added test 'xmllint' to check XML markup files
+[1.976s] -- Configuring done
+[2.009s] -- Generating done
+[2.013s] -- Build files have been written to: /home/nvidia/nav2_ws/build/angbao_navigation2
+[2.068s] [  4%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.068s] [35m[1mScanning dependencies of target angbao_navigation2__cpp[0m
+[2.089s] [  9%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.632s] [  9%] Built target angbao_navigation2__cpp
+[2.650s] [ 18%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.650s] [ 18%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.650s] [ 22%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.650s] [35m[1mScanning dependencies of target angbao_navigation2__rosidl_generator_c[0m
+[2.685s] [ 27%] [32mBuilding C object CMakeFiles/angbao_navigation2__rosidl_generator_c.dir/rosidl_generator_c/angbao_navigation2/msg/detail/custom_detection__functions.c.o[0m
+[2.856s] [ 31%] [32m[1mLinking C shared library libangbao_navigation2__rosidl_generator_c.so[0m
+[2.927s] [ 31%] Built target angbao_navigation2__rosidl_generator_c
+[2.947s] [ 40%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.948s] [ 40%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.147s] [35m[1mScanning dependencies of target angbao_navigation2__rosidl_typesupport_cpp[0m
+[3.180s] [ 45%] [32mBuilding CXX object CMakeFiles/angbao_navigation2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/angbao_navigation2/msg/custom_detection__type_support.cpp.o[0m
+[3.188s] [35m[1mScanning dependencies of target angbao_navigation2__rosidl_typesupport_introspection_cpp[0m
+[3.200s] [35m[1mScanning dependencies of target angbao_navigation2__rosidl_typesupport_fastrtps_cpp[0m
+[3.216s] [ 50%] [32mBuilding CXX object CMakeFiles/angbao_navigation2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/angbao_navigation2/msg/detail/custom_detection__type_support.cpp.o[0m
+[3.233s] [ 54%] [32mBuilding CXX object CMakeFiles/angbao_navigation2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/angbao_navigation2/msg/detail/dds_fastrtps/custom_detection__type_support.cpp.o[0m
+[3.465s] [35m[1mScanning dependencies of target angbao_navigation2__rosidl_typesupport_c[0m
+[3.491s] [ 59%] [32mBuilding CXX object CMakeFiles/angbao_navigation2__rosidl_typesupport_c.dir/rosidl_typesupport_c/angbao_navigation2/msg/custom_detection__type_support.cpp.o[0m
+[3.503s] [35m[1mScanning dependencies of target angbao_navigation2__rosidl_typesupport_introspection_c[0m
+[3.534s] [ 63%] [32mBuilding C object CMakeFiles/angbao_navigation2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/angbao_navigation2/msg/detail/custom_detection__type_support.c.o[0m
+[3.561s] [ 68%] [32m[1mLinking CXX shared library libangbao_navigation2__rosidl_typesupport_c.so[0m
+[3.608s] [ 72%] [32m[1mLinking C shared library libangbao_navigation2__rosidl_typesupport_introspection_c.so[0m
+[3.635s] [ 72%] Built target angbao_navigation2__rosidl_typesupport_c
+[3.666s] [ 72%] Built target angbao_navigation2__rosidl_typesupport_introspection_c
+[3.786s] [ 77%] [32m[1mLinking CXX shared library libangbao_navigation2__rosidl_typesupport_cpp.so[0m
+[3.852s] [ 77%] Built target angbao_navigation2__rosidl_typesupport_cpp
+[3.904s] [ 81%] [32m[1mLinking CXX shared library libangbao_navigation2__rosidl_typesupport_introspection_cpp.so[0m
+[4.027s] [ 81%] Built target angbao_navigation2__rosidl_typesupport_introspection_cpp
+[4.099s] [ 86%] [32m[1mLinking CXX shared library libangbao_navigation2__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.233s] [ 86%] Built target angbao_navigation2__rosidl_typesupport_fastrtps_cpp
+[4.253s] [ 90%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.755s] [35m[1mScanning dependencies of target angbao_navigation2__rosidl_typesupport_fastrtps_c[0m
+[4.783s] [ 95%] [32mBuilding CXX object CMakeFiles/angbao_navigation2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/angbao_navigation2/msg/detail/custom_detection__type_support_c.cpp.o[0m
+[5.386s] [100%] [32m[1mLinking CXX shared library libangbao_navigation2__rosidl_typesupport_fastrtps_c.so[0m
+[5.530s] [100%] Built target angbao_navigation2__rosidl_typesupport_fastrtps_c
+[5.550s] [35m[1mScanning dependencies of target angbao_navigation2[0m
+[5.571s] [100%] Built target angbao_navigation2
+[5.597s] Invoked command in '/home/nvidia/nav2_ws/build/angbao_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(python3810) /usr/bin/cmake --build /home/nvidia/nav2_ws/build/angbao_navigation2 -- -j8 -l8
+[5.692s] Invoking command in '/home/nvidia/nav2_ws/build/angbao_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(python3810) /usr/bin/cmake --install /home/nvidia/nav2_ws/build/angbao_navigation2
+[5.708s] -- Install configuration: ""
+[5.708s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/launch
+[5.708s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/launch/navigation.launch.py
+[5.709s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/launch/navigation.launch127.py
+[5.709s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/param
+[5.709s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/param/angbao_params.yaml
+[5.709s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/param/lifecycle_manager_navigation.yaml
+[5.709s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/maps
+[5.709s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/maps/meeting_room.yaml
+[5.709s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/maps/507map.yaml
+[5.709s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/maps/507map.pgm
+[5.710s] -- Up-to-date: /home/nvidia/nav2_ws/install/angbao_navigation2/share/angbao_navigation2/maps/meeting_room.pgm
+[5.710s] CMake Error at cmake_install.cmake:49 (file):
+[5.710s]   file INSTALL cannot find
+[5.710s]   "/home/nvidia/nav2_ws/src/angbao_navigation2/src/converter.py": No such
+[5.711s]   file or directory.
+[5.711s] 
+[5.712s] 
+[5.713s] Invoked command in '/home/nvidia/nav2_ws/build/angbao_navigation2' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(python3810) /usr/bin/cmake --install /home/nvidia/nav2_ws/build/angbao_navigation2

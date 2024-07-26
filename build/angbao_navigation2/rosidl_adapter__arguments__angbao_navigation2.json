@@ -1,0 +1,6 @@
+{
+  "package_name": "angbao_navigation2",
+  "non_idl_tuples": [
+    "/home/nvidia/nav2_ws/src/angbao_navigation2:msg/CustomDetection.msg"
+  ]
+}

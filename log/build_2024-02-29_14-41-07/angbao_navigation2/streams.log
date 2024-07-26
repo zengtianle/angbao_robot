@@ -1,0 +1,33 @@
+[0.444s] Invoking command in '/home/nvidia/nav2_ws/build/angbao_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/nvidia/nav2_ws/build/angbao_navigation2 -- -j8 -l8
+[0.556s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.645s] -- Using PYTHON_EXECUTABLE: /home/nvidia/miniconda3/bin/python3
+[1.801s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.879s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.889s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.274s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.386s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.388s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.636s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[2.815s] -- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)
+[2.859s] CMake Error at CMakeLists.txt:23 (find_package):
+[2.859s]   By not providing "Findopencv_bridge.cmake" in CMAKE_MODULE_PATH this
+[2.860s]   project has asked CMake to find a package configuration file provided by
+[2.860s]   "opencv_bridge", but CMake did not find one.
+[2.860s] 
+[2.860s]   Could not find a package configuration file provided by "opencv_bridge"
+[2.860s]   with any of the following names:
+[2.860s] 
+[2.860s]     opencv_bridgeConfig.cmake
+[2.860s]     opencv_bridge-config.cmake
+[2.860s] 
+[2.860s]   Add the installation prefix of "opencv_bridge" to CMAKE_PREFIX_PATH or set
+[2.861s]   "opencv_bridge_DIR" to a directory containing one of the above files.  If
+[2.861s]   "opencv_bridge" provides a separate development package or SDK, be sure it
+[2.861s]   has been installed.
+[2.861s] 
+[2.861s] 
+[2.862s] -- Configuring incomplete, errors occurred!
+[2.862s] See also "/home/nvidia/nav2_ws/build/angbao_navigation2/CMakeFiles/CMakeOutput.log".
+[2.862s] See also "/home/nvidia/nav2_ws/build/angbao_navigation2/CMakeFiles/CMakeError.log".
+[2.883s] make: *** [Makefile:222: cmake_check_build_system] Error 1
+[2.891s] Invoked command in '/home/nvidia/nav2_ws/build/angbao_navigation2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/nvidia/nav2_ws/build/angbao_navigation2 -- -j8 -l8

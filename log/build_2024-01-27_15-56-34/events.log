@@ -1,0 +1,171 @@
+[0.000000] (-) TimerEvent: {}
+[0.000660] (angbao_navigation2) JobQueued: {'identifier': 'angbao_navigation2', 'dependencies': OrderedDict()}
+[0.001074] (angbao_navigation2) JobStarted: {'identifier': 'angbao_navigation2'}
+[0.099331] (-) TimerEvent: {}
+[0.200632] (-) TimerEvent: {}
+[0.301777] (-) TimerEvent: {}
+[0.402524] (-) TimerEvent: {}
+[0.504121] (-) TimerEvent: {}
+[0.534414] (angbao_navigation2) JobProgress: {'identifier': 'angbao_navigation2', 'progress': 'cmake'}
+[0.536666] (angbao_navigation2) JobProgress: {'identifier': 'angbao_navigation2', 'progress': 'build'}
+[0.537140] (angbao_navigation2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nvidia/nav2_ws/build/angbao_navigation2', '--', '-j8', '-l8'], 'cwd': '/home/nvidia/nav2_ws/build/angbao_navigation2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'nvidia'), ('SSH_CLIENT', '10.21.59.188 2919 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('ROS_PACKAGE_PATH', '/opt/ros/noetic/share'), ('XDG_SESSION_TYPE', 'tty'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nvidia/bt_ws/install/dwb_msgs/lib:/home/nvidia/bt_ws/install/nav_2d_msgs/lib:/home/nvidia/bt_ws/install/behaviortree_cpp/lib:/opt/ros/noetic/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda/lib64:'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/nvidia'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/nvidia/nav2_ws/src'), ('SSH_TTY', '/dev/pts/4'), ('JETSON_L4T', '35.2.1'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'NVIDIA Orin NX Developer Kit'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_CE_M', ''), ('COLCON_PREFIX_PATH', '/home/nvidia/nav2_ws/install:/home/nvidia/bt_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'nvidia'), ('JETSON_MODULE', 'NVIDIA Jetson Orin NX (16GB ram)'), ('JETSON_SERIAL_NUMBER', '1424922035925'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/noetic/lib/pkgconfig'), ('JETSON_CODENAME', 'P3768'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '249'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/nvidia/bt_ws/install/behaviortree_cpp/bin:/opt/ros/noetic/bin:/home/nvidia/.local/bin:/opt/ros/foxy/bin:/home/nvidia/miniconda3/bin:/home/nvidia/miniconda3/condabin:/usr/local/cuda-11.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:11.0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra23x'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('AMENT_PREFIX_PATH', '/home/nvidia/nav2_ws/install/angbao_navigation2:/home/nvidia/bt_ws/install/dwb_msgs:/home/nvidia/bt_ws/install/nav_2d_msgs:/home/nvidia/bt_ws/install/nav2_common:/home/nvidia/bt_ws/install/my_behavior_tree_ros2:/home/nvidia/bt_ws/install/behaviortree_cpp:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/nvidia/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/nvidia/nav2_ws/build/angbao_navigation2'), ('LC_ALL', 'en_US.UTF-8'), ('CUDA_HOME', '/usr/local/cuda-11.4'), ('CONDA_EXE', '/home/nvidia/miniconda3/bin/conda'), ('SSH_CONNECTION', '10.21.59.188 2919 10.21.59.163 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nvidia/bt_ws/install/dwb_msgs/lib/python3.8/site-packages:/home/nvidia/bt_ws/install/nav_2d_msgs/lib/python3.8/site-packages:/home/nvidia/bt_ws/install/nav2_common/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('CONDA_PREFIX', '/home/nvidia/miniconda3'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('JETSON_JETPACK', '5.1'), ('CMAKE_PREFIX_PATH', '/home/nvidia/nav2_ws/install/angbao_navigation2:/home/nvidia/bt_ws/install/dwb_msgs:/home/nvidia/bt_ws/install/nav_2d_msgs:/home/nvidia/bt_ws/install/nav2_common:/home/nvidia/bt_ws/install/my_behavior_tree_ros2:/home/nvidia/bt_ws/install/behaviortree_cpp:/opt/ros/foxy:/opt/ros/noetic'), ('JETSON_P_NUMBER', 'p3767-0000')]), 'shell': False}
+[0.587551] (angbao_navigation2) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.604300] (-) TimerEvent: {}
+[0.630115] (angbao_navigation2) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /home/nvidia/miniconda3/bin/python3\n'}
+[0.704621] (-) TimerEvent: {}
+[0.805437] (-) TimerEvent: {}
+[0.906211] (-) TimerEvent: {}
+[1.006940] (-) TimerEvent: {}
+[1.025222] (angbao_navigation2) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[1.098125] (angbao_navigation2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.107035] (-) TimerEvent: {}
+[1.109026] (angbao_navigation2) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.207224] (-) TimerEvent: {}
+[1.295601] (angbao_navigation2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.307288] (-) TimerEvent: {}
+[1.346047] (angbao_navigation2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.407634] (-) TimerEvent: {}
+[1.470066] (angbao_navigation2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.507716] (-) TimerEvent: {}
+[1.551444] (angbao_navigation2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.553641] (angbao_navigation2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.555000] (angbao_navigation2) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.607860] (-) TimerEvent: {}
+[1.682176] (angbao_navigation2) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.682928] (angbao_navigation2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.708001] (-) TimerEvent: {}
+[1.808575] (-) TimerEvent: {}
+[1.813079] (angbao_navigation2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.813853] (angbao_navigation2) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.908754] (-) TimerEvent: {}
+[1.937284] (angbao_navigation2) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.938046] (angbao_navigation2) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[2.008897] (-) TimerEvent: {}
+[2.075700] (angbao_navigation2) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[2.077559] (angbao_navigation2) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.108969] (-) TimerEvent: {}
+[2.209430] (-) TimerEvent: {}
+[2.308262] (angbao_navigation2) StdoutLine: {'line': b'-- Found rclcpp_action: 2.4.3 (/opt/ros/foxy/share/rclcpp_action/cmake)\n'}
+[2.309526] (-) TimerEvent: {}
+[2.410109] (-) TimerEvent: {}
+[2.414001] (angbao_navigation2) StdoutLine: {'line': b'-- Found nav2_msgs: 0.4.7 (/opt/ros/foxy/share/nav2_msgs/cmake)\n'}
+[2.510406] (-) TimerEvent: {}
+[2.611034] (-) TimerEvent: {}
+[2.711512] (-) TimerEvent: {}
+[2.812184] (-) TimerEvent: {}
+[2.872418] (angbao_navigation2) StdoutLine: {'line': b'-- Found nav2_bringup: 0.4.7 (/opt/ros/foxy/share/nav2_bringup/cmake)\n'}
+[2.872911] (angbao_navigation2) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[2.912574] (-) TimerEvent: {}
+[3.013385] (-) TimerEvent: {}
+[3.034109] (angbao_navigation2) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.036049] (angbao_navigation2) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.036474] (angbao_navigation2) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[3.036758] (angbao_navigation2) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.037765] (angbao_navigation2) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[3.038076] (angbao_navigation2) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[3.038378] (angbao_navigation2) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.039085] (angbao_navigation2) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.039722] (angbao_navigation2) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[3.041342] (angbao_navigation2) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.041654] (angbao_navigation2) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.041982] (angbao_navigation2) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.046801] (angbao_navigation2) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.061982] (angbao_navigation2) StdoutLine: {'line': b'-- Generating done\n'}
+[3.064664] (angbao_navigation2) StdoutLine: {'line': b'-- Build files have been written to: /home/nvidia/nav2_ws/build/angbao_navigation2\n'}
+[3.113521] (-) TimerEvent: {}
+[3.120712] (angbao_navigation2) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target nav_to_pose\x1b[0m\n'}
+[3.213627] (-) TimerEvent: {}
+[3.246826] (angbao_navigation2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/nav_to_pose.dir/angbao_navigation2/nav_to_pose.cpp.o\x1b[0m\n'}
+[3.313788] (-) TimerEvent: {}
+[3.414374] (-) TimerEvent: {}
+[3.515002] (-) TimerEvent: {}
+[3.615698] (-) TimerEvent: {}
+[3.716358] (-) TimerEvent: {}
+[3.816991] (-) TimerEvent: {}
+[3.917825] (-) TimerEvent: {}
+[4.018683] (-) TimerEvent: {}
+[4.119364] (-) TimerEvent: {}
+[4.220071] (-) TimerEvent: {}
+[4.320734] (-) TimerEvent: {}
+[4.421382] (-) TimerEvent: {}
+[4.522054] (-) TimerEvent: {}
+[4.622716] (-) TimerEvent: {}
+[4.723386] (-) TimerEvent: {}
+[4.824082] (-) TimerEvent: {}
+[4.924748] (-) TimerEvent: {}
+[5.025418] (-) TimerEvent: {}
+[5.126307] (-) TimerEvent: {}
+[5.227152] (-) TimerEvent: {}
+[5.328040] (-) TimerEvent: {}
+[5.428887] (-) TimerEvent: {}
+[5.529746] (-) TimerEvent: {}
+[5.565968] (angbao_navigation2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/nav2_ws/src/angbao_navigation2/angbao_navigation2/nav_to_pose.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid NavToPoseClient::sendGoal()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.566674] (angbao_navigation2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/nav2_ws/src/angbao_navigation2/angbao_navigation2/nav_to_pose.cpp:39:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Krclcpp_action::Client<nav2_msgs::action::NavigateToPose>::GoalResponseCallback\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::function<void(std::shared_future<std::shared_ptr<rclcpp_action::ClientGoalHandle<nav2_msgs::action::NavigateToPose> > >)>\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[KNavToPoseClient::sendGoal()::<lambda(rclcpp_action::ClientGoalHandle<nav2_msgs::action::NavigateToPose>::SharedPtr)>\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[5.566844] (angbao_navigation2) StderrLine: {'line': b'   39 |         \x1b[01;31m\x1b[K}\x1b[m\x1b[K;\n'}
+[5.566955] (angbao_navigation2) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.567074] (angbao_navigation2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/future:48\x1b[m\x1b[K,\n'}
+[5.567175] (angbao_navigation2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[5.567274] (angbao_navigation2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[5.567366] (angbao_navigation2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/nav2_ws/src/angbao_navigation2/angbao_navigation2/nav_to_pose.cpp:3\x1b[m\x1b[K:\n'}
+[5.567459] (angbao_navigation2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/std_function.h:462:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::function<_Res(_ArgTypes ...)>& std::function<_Res(_ArgTypes ...)>::operator=(const std::function<_Res(_ArgTypes ...)>&) [with _Res = void; _ArgTypes = {std::shared_future<std::shared_ptr<rclcpp_action::ClientGoalHandle<nav2_msgs::action::NavigateToPose> > >}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.567560] (angbao_navigation2) StderrLine: {'line': b'  462 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const function& __x)\n'}
+[5.567712] (angbao_navigation2) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.567815] (angbao_navigation2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/std_function.h:462:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[KNavToPoseClient::sendGoal()::<lambda(rclcpp_action::ClientGoalHandle<nav2_msgs::action::NavigateToPose>::SharedPtr)>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::function<void(std::shared_future<std::shared_ptr<rclcpp_action::ClientGoalHandle<nav2_msgs::action::NavigateToPose> > >)>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.567936] (angbao_navigation2) StderrLine: {'line': b'  462 |       operator=(\x1b[01;36m\x1b[Kconst function& __x\x1b[m\x1b[K)\n'}
+[5.568034] (angbao_navigation2) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[5.568125] (angbao_navigation2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/std_function.h:480:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::function<_Res(_ArgTypes ...)>& std::function<_Res(_ArgTypes ...)>::operator=(std::function<_Res(_ArgTypes ...)>&&) [with _Res = void; _ArgTypes = {std::shared_future<std::shared_ptr<rclcpp_action::ClientGoalHandle<nav2_msgs::action::NavigateToPose> > >}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.568243] (angbao_navigation2) StderrLine: {'line': b'  480 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(function&& __x) noexcept\n'}
+[5.568333] (angbao_navigation2) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.568423] (angbao_navigation2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/std_function.h:480:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[KNavToPoseClient::sendGoal()::<lambda(rclcpp_action::ClientGoalHandle<nav2_msgs::action::NavigateToPose>::SharedPtr)>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::function<void(std::shared_future<std::shared_ptr<rclcpp_action::ClientGoalHandle<nav2_msgs::action::NavigateToPose> > >)>&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.568524] (angbao_navigation2) StderrLine: {'line': b'  480 |       operator=(\x1b[01;36m\x1b[Kfunction&& __x\x1b[m\x1b[K) noexcept\n'}
+[5.568613] (angbao_navigation2) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[5.568704] (angbao_navigation2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/std_function.h:494:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::function<_Res(_ArgTypes ...)>& std::function<_Res(_ArgTypes ...)>::operator=(std::nullptr_t) [with _Res = void; _ArgTypes = {std::shared_future<std::shared_ptr<rclcpp_action::ClientGoalHandle<nav2_msgs::action::NavigateToPose> > >}; std::nullptr_t = std::nullptr_t]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.568797] (angbao_navigation2) StderrLine: {'line': b'  494 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(nullptr_t) noexcept\n'}
+[5.568884] (angbao_navigation2) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.568970] (angbao_navigation2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/std_function.h:494:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[KNavToPoseClient::sendGoal()::<lambda(rclcpp_action::ClientGoalHandle<nav2_msgs::action::NavigateToPose>::SharedPtr)>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::nullptr_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.569061] (angbao_navigation2) StderrLine: {'line': b'  494 |       operator=(\x1b[01;36m\x1b[Knullptr_t\x1b[m\x1b[K) noexcept\n'}
+[5.569149] (angbao_navigation2) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.569253] (angbao_navigation2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/std_function.h:523:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Functor> std::function<_Res(_ArgTypes ...)>::_Requires<std::function<_Res(_ArgTypes ...)>::_Callable<typename std::decay<_Functor>::type>, std::function<_Res(_ArgTypes ...)>&> std::function<_Res(_ArgTypes ...)>::operator=(_Functor&&) [with _Functor = _Functor; _Res = void; _ArgTypes = {std::shared_future<std::shared_ptr<rclcpp_action::ClientGoalHandle<nav2_msgs::action::NavigateToPose> > >}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.569354] (angbao_navigation2) StderrLine: {'line': b'  523 |  \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(_Functor&& __f)\n'}
+[5.569452] (angbao_navigation2) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.569540] (angbao_navigation2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/std_function.h:523:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.569636] (angbao_navigation2) StderrLine: {'line': b'/usr/include/c++/9/bits/std_function.h: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Res, class ... _ArgTypes> template<class _Cond, class _Tp> using _Requires = typename std::enable_if<_Cond::value, _Tp>::type [with _Cond = std::function<void(std::shared_future<std::shared_ptr<rclcpp_action::ClientGoalHandle<nav2_msgs::action::NavigateToPose> > >)>::_Callable<NavToPoseClient::sendGoal()::<lambda(rclcpp_action::ClientGoalHandle<nav2_msgs::action::NavigateToPose>::SharedPtr)>, std::__invoke_result<NavToPoseClient::sendGoal()::<lambda(rclcpp_action::ClientGoalHandle<nav2_msgs::action::NavigateToPose>::SharedPtr)>&, std::shared_future<std::shared_ptr<rclcpp_action::ClientGoalHandle<nav2_msgs::action::NavigateToPose> > > > >; _Tp = std::function<void(std::shared_future<std::shared_ptr<rclcpp_action::ClientGoalHandle<nav2_msgs::action::NavigateToPose> > >)>&; _Res = void; _ArgTypes = {std::shared_future<std::shared_ptr<rclcpp_action::ClientGoalHandle<nav2_msgs::action::NavigateToPose> > >}]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.569758] (angbao_navigation2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/std_function.h:523:2:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Functor> std::function<void(std::shared_future<std::shared_ptr<rclcpp_action::ClientGoalHandle<nav2_msgs::action::NavigateToPose> > >)>::_Requires<std::function<void(std::shared_future<std::shared_ptr<rclcpp_action::ClientGoalHandle<nav2_msgs::action::NavigateToPose> > >)>::_Callable<typename std::decay<_Tp>::type, std::__invoke_result<typename std::decay<_Tp>::type&, std::shared_future<std::shared_ptr<rclcpp_action::ClientGoalHandle<nav2_msgs::action::NavigateToPose> > > > >, std::function<void(std::shared_future<std::shared_ptr<rclcpp_action::ClientGoalHandle<nav2_msgs::action::NavigateToPose> > >)>&> std::function<void(std::shared_future<std::shared_ptr<rclcpp_action::ClientGoalHandle<nav2_msgs::action::NavigateToPose> > >)>::operator=<_Functor>(_Functor&&) [with _Functor = NavToPoseClient::sendGoal()::<lambda(rclcpp_action::ClientGoalHandle<nav2_msgs::action::NavigateToPose>::SharedPtr)>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.569864] (angbao_navigation2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/nav2_ws/src/angbao_navigation2/angbao_navigation2/nav_to_pose.cpp:39:9:\x1b[m\x1b[K   required from here\n'}
+[5.569956] (angbao_navigation2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/std_function.h:385:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, std::function<void(std::shared_future<std::shared_ptr<rclcpp_action::ClientGoalHandle<nav2_msgs::action::NavigateToPose> > >)>&>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.570050] (angbao_navigation2) StderrLine: {'line': b'  385 |  using \x1b[01;31m\x1b[K_Requires\x1b[m\x1b[K = typename enable_if<_Cond::value, _Tp>::type;\n'}
+[5.570141] (angbao_navigation2) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.570228] (angbao_navigation2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/std_function.h:532:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Functor> std::function<_Res(_ArgTypes ...)>& std::function<_Res(_ArgTypes ...)>::operator=(std::reference_wrapper<_Functor>) [with _Functor = _Functor; _Res = void; _ArgTypes = {std::shared_future<std::shared_ptr<rclcpp_action::ClientGoalHandle<nav2_msgs::action::NavigateToPose> > >}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.570321] (angbao_navigation2) StderrLine: {'line': b'  532 |  \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(reference_wrapper<_Functor> __f) noexcept\n'}
+[5.570409] (angbao_navigation2) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.570494] (angbao_navigation2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/std_function.h:532:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.570582] (angbao_navigation2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/nav2_ws/src/angbao_navigation2/angbao_navigation2/nav_to_pose.cpp:39:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[KNavToPoseClient::sendGoal()::<lambda(rclcpp_action::ClientGoalHandle<nav2_msgs::action::NavigateToPose>::SharedPtr)>\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::reference_wrapper<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.570694] (angbao_navigation2) StderrLine: {'line': b'   39 |         \x1b[01;36m\x1b[K}\x1b[m\x1b[K;\n'}
+[5.570787] (angbao_navigation2) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[5.630068] (-) TimerEvent: {}
+[5.730880] (-) TimerEvent: {}
+[5.831712] (-) TimerEvent: {}
+[5.932509] (-) TimerEvent: {}
+[6.033318] (-) TimerEvent: {}
+[6.134143] (-) TimerEvent: {}
+[6.234974] (-) TimerEvent: {}
+[6.335804] (-) TimerEvent: {}
+[6.436638] (-) TimerEvent: {}
+[6.537290] (-) TimerEvent: {}
+[6.638117] (-) TimerEvent: {}
+[6.738941] (-) TimerEvent: {}
+[6.839772] (-) TimerEvent: {}
+[6.940427] (-) TimerEvent: {}
+[7.041263] (-) TimerEvent: {}
+[7.141926] (-) TimerEvent: {}
+[7.220884] (angbao_navigation2) StderrLine: {'line': b'make[2]: *** [CMakeFiles/nav_to_pose.dir/build.make:63: CMakeFiles/nav_to_pose.dir/angbao_navigation2/nav_to_pose.cpp.o] Error 1\n'}
+[7.221793] (angbao_navigation2) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:105: CMakeFiles/nav_to_pose.dir/all] Error 2\n'}
+[7.222148] (angbao_navigation2) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[7.226016] (angbao_navigation2) CommandEnded: {'returncode': 2}
+[7.242103] (-) TimerEvent: {}
+[7.343041] (-) TimerEvent: {}
+[7.444538] (-) TimerEvent: {}
+[7.546069] (-) TimerEvent: {}
+[7.647090] (-) TimerEvent: {}
+[7.718728] (angbao_navigation2) JobEnded: {'identifier': 'angbao_navigation2', 'rc': 2}
+[7.729388] (-) EventReactorShutdown: {}

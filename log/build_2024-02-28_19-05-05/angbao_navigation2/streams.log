@@ -1,0 +1,24 @@
+[0.243s] Invoking command in '/home/nvidia/nav2_ws/build/angbao_navigation2': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/nvidia/nav2_ws/build/angbao_navigation2 -- -j8 -l8
+[0.295s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.335s] -- Using PYTHON_EXECUTABLE: /home/nvidia/miniconda3/bin/python3
+[0.743s] CMake Error at CMakeLists.txt:20 (find_package):
+[0.743s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.743s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.744s]   CMake did not find one.
+[0.744s] 
+[0.744s]   Could not find a package configuration file provided by "catkin" with any
+[0.744s]   of the following names:
+[0.744s] 
+[0.744s]     catkinConfig.cmake
+[0.744s]     catkin-config.cmake
+[0.744s] 
+[0.744s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.744s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.745s]   provides a separate development package or SDK, be sure it has been
+[0.745s]   installed.
+[0.745s] 
+[0.745s] 
+[0.745s] -- Configuring incomplete, errors occurred!
+[0.745s] See also "/home/nvidia/nav2_ws/build/angbao_navigation2/CMakeFiles/CMakeOutput.log".
+[0.747s] make: *** [Makefile:222: cmake_check_build_system] Error 1
+[0.754s] Invoked command in '/home/nvidia/nav2_ws/build/angbao_navigation2' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/nvidia/nav2_ws/build/angbao_navigation2 -- -j8 -l8
